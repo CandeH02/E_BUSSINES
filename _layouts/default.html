@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
   {% include head.html %}
-<body>
-  <header>
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <body>
+    <header>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-      {% include menu-links.html %}
+        {% include menu-links.html %}
+      </div>
+
+      <span id="slid" onclick="openNav()"><i class="fa fa-align-left" aria-hidden="true"></i></span>
+      <a href="{{ site.baseurl }}/"><h1 class="header-title">{{site.title}}<i class="fa fa-sun-o" aria-hidden="true"></i> </h1></a>
+      <p class="company-description">{{ site.company_description }}</p>
+      <h2 class="header-tagline">AQUI ENCONTRARÁS LO QUE BUSCAS</h2>
+
+      <div class="button-container">
+        <a href="{{ site.baseurl }}/_pages/vision" class="btn btn-vision rounded-button">Nuestra Visión</a>
+        <a href="{{ site.baseurl }}/_pages/mision" class="btn btn-mission rounded-button">Nuestra Misión</a>
+      </div>
+    </header>
+    <div id="main">
+      {{ content }}
+      {% include footer.html %}
     </div>
-
-    <span id="slid" onclick="openNav()"><i class="fa fa-align-left" aria-hidden="true"></i></span>
-    <a href="{{ site.baseurl }}/"><h1 class="header-title">{{site.title}}<i class="fa fa-sun-o" aria-hidden="true"></i> </h1></a>
-    <p class="company-description">{{ site.company_description }}</p>
-    <h2 class="header-tagline">AQUI ENCONTRARÁS LO QUE BUSCAS</h2>
-
-    <div class="button-container">
-      <a href="{{ site.baseurl }}/_pages/vision" class="btn btn-vision">Nuestra Visión</a>
-      <a href="{{ site.baseurl }}/_pages/mision" class="btn btn-mission">Nuestra Misión</a>
-    </div>
-  </header>
-  <div id="main">
-    {{ content }}
-    {% include footer.html %}
-  </div>
-  <script>
-    function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
-    }
-    function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-    }
-  </script>
-  <link href="//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  {% include analytics.html %}
-</body>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    {% include analytics.html %}
+  </body>
 </html>
