@@ -337,3 +337,13 @@ table {
 .active {
     font-weight: 700;
 }
+
+.button-container {
+    text-align: center; /* Centra los botones */
+  }
+  
+  .rounded-button {
+    /* Estilos existentes */
+    display: block; /* Hace que cada botón ocupe toda la línea */
+    margin: 10px auto; /* Agrega un margen superior e inferior para separar los botones */
+  }
