@@ -55,7 +55,12 @@
 }
   */
 
-
+  .rounded-button {
+    background-color: #663399; /* Color morado */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Ajusta el relleno según tus necesidades */
+  }
+  
 #grid[data-columns]::before {
 	content: '4 .column.size-1of4';
     @include media-query($on-laptop){
