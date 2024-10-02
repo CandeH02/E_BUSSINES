@@ -42,6 +42,18 @@ $on-laptop:        1000px;
     }
 }
 
+.header-tagline {
+    margin-bottom: 20px; /* Espacio entre el título y los botones */
+}
+
+.rounded-button {
+    background-color: #663399;
+    border-radius: 50px;
+    padding: 10px 20px;
+    max-width: 200px; /* Ajusta el ancho máximo según necesites */
+    margin: 10px 0; /* Añade margen superior e inferior */
+}
+
 
 
 
