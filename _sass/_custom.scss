@@ -42,7 +42,8 @@
         color: #eae311;
     }
 }
-.btn-vision, .btn-mission {
-    background-color: #663399; /* Ajusta el tono de morado según tu preferencia */
-    color: white;
+.rounded-button {
+    background-color: #663399; /* Color morado */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Ajusta el relleno según tus necesidades */
   }
