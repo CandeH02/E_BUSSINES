@@ -340,3 +340,67 @@ table {
     font-weight: 700;
 }
 
+/* PONIENDO EL ISMO TAMAÑO PARA LOS POST */
+.post-container {
+    /* Establece un ancho para cada post, calculando un tercio del ancho total menos un margen de 20px */
+    width: calc(33.33% - 20px);
+    /* Muestra los elementos como bloques en línea, permitiendo que se coloquen uno al lado del otro */
+    display: inline-block;
+    /* Agrega un margen alrededor de cada post para crear espacio entre ellos */
+    margin: 10px;
+    /* Otros estilos que puedas querer agregar */
+  }
+  
+  #container {
+    /* Establece un ancho máximo para el contenedor principal y lo centra en la página */
+    width: 95%;
+    margin: 4em auto;
+    height: auto;
+  }
+  
+  /* Crea un diseño de columnas responsivo utilizando múltiples columnas */
+  .cols {
+    /* Establece el número de columnas, el espacio entre ellas y el ancho de cada columna para diferentes tamaños de pantalla */
+    -moz-column-count: 4;
+    -moz-column-gap: 2%;
+    -moz-column-width: 25%;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 2%;
+    -webkit-column-width: 25%;
+    column-count: 4;
+    column-gap: 2%;
+    column-width: 25%;
+  
+    /* Ajusta el número de columnas para pantallas más pequeñas (laptop) */
+    @include media-query($on-laptop){
+      -moz-column-count: 3;
+      -moz-column-gap: 3%;
+      -moz-column-width: 30%;
+      -webkit-column-count: 3;
+      -webkit-column-gap: 3%;
+      -webkit-column-width: 30%;
+      column-count: 3;
+      column-gap: 3%;
+      column-width: 30%;
+    }
+  
+    /* Ajusta el número de columnas para pantallas muy pequeñas (móvil) */
+    @include media-query($on-palm) {
+      -moz-column-count: 1;
+      -moz-column-gap: 0%;
+      -moz-column-width: 100%;
+      -webkit-column-count: 1;
+      -webkit-column-gap: 0%;
+      -webkit-column-width: 100%;
+      column-count: 1;
+      column-gap: 0%;
+      column-width: 100%;
+    }
+  }
+  
+  /* Estilos para las cajas que contienen los posts */
+  .box {
+    /* Márgenes, bordes redondeados, sombras y otros estilos para las cajas */
+  }
+  
+  /* Otros estilos para botones, contenedores, imágenes y otros elementos de tu página */
