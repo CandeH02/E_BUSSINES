@@ -1,13 +1,12 @@
 ---
 layout: post
-title:  "Who is Karna?"
-description: Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis vehicula tincidunt lacus nec fringilla. Morbi molestie fringilla laoreet. Vestibulum venenatis ante in imperdiet venenatis. 
-date:   2016-06-13 10:51:47 +0530
-categories: jekyll update
-img: karna.jpg
+title:  "NUESTRA IDEA DE NEGOCIO?"
+description: Negocio especializado en teclados mecánicos personalizados, permitiendo a los usuarios configurar cada aspecto del teclado (switches, keycaps, materiales y diseño). También nos enfocamos en un nicho de puristas que buscan exclusividad y alta calidad. 
+date: 2024-10-03
+//img: karna.jpg
+img: modeloN.jpg
 categories: [one, two]
 color: 1976D2
-author: webjeda
 ---
 Karna is one of the central characters in the Hindu epic Mahābhārata. Karna was one of the greatest warriors, whose martial exploits are recorded in the epic, and the only warrior believed to be able to defeat Arjuna in battle.
 
