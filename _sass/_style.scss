@@ -339,4 +339,10 @@ table {
 .active {
     font-weight: 700;
 }
-
+//PONEINDO EL ISMO TAMAÑO PARA LOS POST
+.post-container {
+    width: calc(33.33% - 20px);
+    display: inline-block;
+    margin: 10px;
+    /* Otros estilos */
+  }
