@@ -378,28 +378,3 @@ table {
   }
   
   /* Otros estilos para botones, contenedores, imágenes y otros elementos de tu página */
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 20px;
-  }
-  
-  .post-container {
-    margin: 0; /* Remove unnecessary margin */
-    padding: 20px; /* Add padding for spacing within the post */
-  }
-  
-  /* Optional: Adjust post height if needed */
-  .post-container > * {
-    max-height: 300px; /* Adjust as desired */
-    overflow: hidden;
-  }
-  
-  .post-title {
-    font-size: 1.2em; /* Adjust font size if necessary */
-    margin-bottom: 10px;
-  }
-  
-  .post-content {
-    /* Add styles for post content if needed */
-  }
