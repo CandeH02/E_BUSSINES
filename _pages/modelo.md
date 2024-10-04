@@ -9,4 +9,13 @@ color: 1976D2
 permalink: /modelo/
 ---
 
+## {{ page.title }}
+**Fecha de publicación:** {{ page.date | date: "%d de %B de %Y" }}
+
+**Descripción:** {{ page.description }}
+
+![Modelo de teclado]({{ site.baseurl }}/assets/iamagens-hq/{{ page.img }})
+
+{{ page.description }}
+
 
