@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Teclado Mecánico Personalizado"
-description: "Negocio especializado en teclados mecánicos personalizados, permitiendo a los usuarios configurar cada aspecto del teclado (switches, keycaps, materiales y diseño)."
+description: "Teclado mecánico personalizable con switches mecánicos, keycaps de alta calidad y retroiluminación RGB."
 date: 2024-10-03
 img: modeloN.jpg
 categories: [one, two]
@@ -12,6 +12,7 @@ color: 1976D2
 
 ![Teclado Mecánico]({{ site.baseurl }}/iamagens-hq/{{ page.img }})
 
+**Fecha de publicación:** {{ page.date | date: "%d de %B de %Y" }}  
 **Precio:** S/. 2500
 
 ### Especificaciones del Teclado
