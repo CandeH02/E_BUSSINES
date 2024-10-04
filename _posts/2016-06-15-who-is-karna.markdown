@@ -12,21 +12,18 @@ color: 1976D2
 
 ![Teclado Mecánico]({{ site.baseurl }}/iamagens-hq/{{ page.img }})
 
-**Fecha de publicación:** {{ page.date | date: "%d de %B de %Y" }}  
-**Precio:** S/. 2500
+**Precio:** S/. 2500  
 
-### Especificaciones del Teclado
-- **Tipo de Switches:** Mecánicos (Gateron)
-- **Keycaps:** PBT Doble Inyección
-- **Retroiluminación:** RGB Personalizable
-- **Conectividad:** USB-C
-- **Diseño:** Ergonomía avanzada
-
-<button class="show-specifications">Ver Especificaciones Completas</button>
+<button class="show-specifications">Características</button>
 
 <div class="specifications" style="display: none;">
-  <h3>Especificaciones Completas</h3>
+  <h3>Especificaciones del Teclado</h3>
   <ul>
+    <li>Tipo de Switches: Mecánicos (Gateron)</li>
+    <li>Keycaps: PBT Doble Inyección</li>
+    <li>Retroiluminación: RGB Personalizable</li>
+    <li>Conectividad: USB-C</li>
+    <li>Diseño: Ergonomía avanzada</li>
     <li>Dimensiones: 360 x 130 x 40 mm</li>
     <li>Peso: 1.2 kg</li>
     <li>Compatibilidad: Windows, MacOS, Linux</li>
