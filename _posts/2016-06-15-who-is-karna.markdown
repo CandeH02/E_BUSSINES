@@ -3,7 +3,7 @@ layout: post
 title: "Teclado Mecánico Personalizado"
 description: "Teclado mecánico personalizable con switches mecánicos, keycaps de alta calidad y retroiluminación RGB."
 date: 2024-10-03
-img: modeloN.jpg
+img: keypa1.jpg
 categories: [one, two]
 color: 1976D2
 ---
