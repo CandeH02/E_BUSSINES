@@ -8,5 +8,8 @@ img: modeloN.jpg
 categories: [one, two]
 color: 1976D2
 
+<a href="{{ site.baseurl }}/assets/images/modeloN.jpg" target="_blank">
+    <img src="{{ site.baseurl }}/assets/images/modeloN.jpg" alt="Modelo de teclado" style="max-width: 100%;">
+</a>
 
 
