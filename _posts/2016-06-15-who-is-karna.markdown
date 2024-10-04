@@ -10,15 +10,10 @@ color: 1976D2
 
 ## Teclado Mecánico Personalizado
 
-![Teclado Mecánico]({{ site.baseurl }}/images/{{ keypa1.jng }})
-
 **Precio:** S/. 2500  
 
-<button class="show-specifications">➡️ Características</button>
-
-<div class="specifications" style="display: none;">
-  <h3>Especificaciones del Teclado</h3>
-  <ul>
+<h3>Especificaciones del Teclado</h3>
+<ul>
     <li>Tipo de Switches: Mecánicos (Gateron)</li>
     <li>Keycaps: PBT Doble Inyección</li>
     <li>Retroiluminación: RGB Personalizable</li>
@@ -28,12 +23,5 @@ color: 1976D2
     <li>Peso: 1.2 kg</li>
     <li>Compatibilidad: Windows, MacOS, Linux</li>
     <li>Garantía: 2 años</li>
-  </ul>
-</div>
+</ul>
 
-<script>
-  document.querySelector('.show-specifications').addEventListener('click', function() {
-    const specifications = document.querySelector('.specifications');
-    specifications.style.display = specifications.style.display === 'none' ? 'block' : 'none';
-  });
-</script>
