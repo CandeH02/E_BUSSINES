@@ -12,8 +12,7 @@ layout: default
       <h4>{{post.title}}</h4>
       <p>{{post.description}}</p>
       <div class="action">
-        {{ post.date | date: '%B %d, %Y' }} 
-        <span class="price">Precio: $ {{ post.price }}</span>  <a href="{{post.url | prepend: site.baseurl}}" class="custom-button">Ver <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+        {{ post.date | date: '%B %d, %Y' }}<br>  <span class="price">Precio: $1000</span>  <a href="{{post.url | prepend: site.baseurl}}" class="custom-button">Ver <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
       </div> 
     </div>  
   </div>
