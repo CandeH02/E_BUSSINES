@@ -1,17 +1,41 @@
 ---
 layout: post
-title:  "NUESTRA IDEA DE NEGOCIO?"
-description: Negocio especializado en teclados mecánicos personalizados, permitiendo a los usuarios configurar cada aspecto del teclado (switches, keycaps, materiales y diseño). También nos enfocamos en un nicho de puristas que buscan exclusividad y alta calidad. 
+title: "Teclado Mecánico Personalizado"
+description: "Negocio especializado en teclados mecánicos personalizados, permitiendo a los usuarios configurar cada aspecto del teclado (switches, keycaps, materiales y diseño)."
 date: 2024-10-03
 img: modeloN.jpg
 categories: [one, two]
 color: 1976D2
 ---
-Karna is one of the central characters in the Hindu epic Mahābhārata. Karna was one of the greatest warriors, whose martial exploits are recorded in the epic, and the only warrior believed to be able to defeat Arjuna in battle.
 
-Karna was the son of Surya(Sun) and Kunti, born to Kunti before her marriage with Pandu.
+## Teclado Mecánico Personalizado
 
-![Karna]({{site.baseurl}}/images/karna-2.jpg)
+![Teclado Mecánico]({{ site.baseurl }}/iamagens-hq/{{ page.img }})
 
+**Precio:** S/. 2500
 
-Image Credits - [18days](https://www.youtube.com/watch?v=kyHFBybC3RI) and [Nisachar](http://nisachar.deviantart.com/gallery/37429163/18-Days) 
+### Especificaciones del Teclado
+- **Tipo de Switches:** Mecánicos (Gateron)
+- **Keycaps:** PBT Doble Inyección
+- **Retroiluminación:** RGB Personalizable
+- **Conectividad:** USB-C
+- **Diseño:** Ergonomía avanzada
+
+<button class="show-specifications">Ver Especificaciones Completas</button>
+
+<div class="specifications" style="display: none;">
+  <h3>Especificaciones Completas</h3>
+  <ul>
+    <li>Dimensiones: 360 x 130 x 40 mm</li>
+    <li>Peso: 1.2 kg</li>
+    <li>Compatibilidad: Windows, MacOS, Linux</li>
+    <li>Garantía: 2 años</li>
+  </ul>
+</div>
+
+<script>
+  document.querySelector('.show-specifications').addEventListener('click', function() {
+    const specifications = document.querySelector('.specifications');
+    specifications.style.display = specifications.style.display === 'none' ? 'block' : 'none';
+  });
+</script>
