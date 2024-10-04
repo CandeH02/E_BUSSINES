@@ -9,6 +9,11 @@ color: 1976D2
 permalink: /modelo/
 ---
 
+Negocio especializado en teclados mecánicos personalizados, permitiendo a los usuarios configurar cada aspecto del teclado (switches, keycaps, materiales y diseño). También nos enfocamos en un nicho de puristas que buscan exclusividad y alta calidad.
+
+![Modelo de teclado]({{ site.baseurl }}/iamagens-hq/{{ modelo.jpg }})
+
+
 
 
 
