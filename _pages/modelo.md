@@ -1,7 +1,6 @@
-
 ---
 layout: post
-title:  "NUESTRA IDEA DE NEGOCIO?"
+title: "NUESTRA IDEA DE NEGOCIO?"
 description: Negocio especializado en teclados mecánicos personalizados, permitiendo a los usuarios configurar cada aspecto del teclado (switches, keycaps, materiales y diseño). También nos enfocamos en un nicho de puristas que buscan exclusividad y alta calidad.
 date: 2024-10-03
 img: modeloN.jpg
@@ -9,7 +8,12 @@ categories: [one, two]
 color: 1976D2
 ---
 
-![Modelo de teclado]({{ site.baseurl }}/assets/images/modeloN.jpg)
+## {{ page.title }}
+**Fecha de publicación:** {{ page.date | date: "%B %d, %Y" }}
+
+![Modelo de teclado]({{ site.baseurl }}/assets/images/{{ page.img }})
+
+**Descripción:** {{ page.description }}
 
 
 
