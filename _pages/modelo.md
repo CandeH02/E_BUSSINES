@@ -6,6 +6,7 @@ date: 2024-10-03
 img: modeloN.jpg
 categories: [one, two]
 color: 1976D2
+permalink: /nuestra-idea-de-negocio/
 ---
 
 ## {{ page.title }}
@@ -14,6 +15,3 @@ color: 1976D2
 ![Modelo de teclado]({{ site.baseurl }}/assets/images/{{ page.img }})
 
 **Descripción:** {{ page.description }}
-
-
-
