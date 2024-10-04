@@ -10,11 +10,11 @@ color: 1976D2
 
 ## Teclado Mecánico Personalizado
 
-![Teclado Mecánico]({{ site.baseurl }}/iamagens-hq/{{ page.img }})
+![Teclado Mecánico]({{ site.baseurl }}/images/{{ keypa1.jng }})
 
 **Precio:** S/. 2500  
 
-<button class="show-specifications">Características</button>
+<button class="show-specifications">➡️ Características</button>
 
 <div class="specifications" style="display: none;">
   <h3>Especificaciones del Teclado</h3>
