@@ -12,6 +12,7 @@ permalink: /modelo/
 ## {{ page.title }}
 **Fecha de publicación:** {{ page.date | date: "%d de %B de %Y" }}
 
-![Modelo de teclado]({{ site.baseurl }}/assets/images/{{ page.img }})
+![Modelo de teclado]({{ site.baseurl }}/iamagens-hq/{{ page.img }})
 
 **Descripción:** {{ page.description }}
+
